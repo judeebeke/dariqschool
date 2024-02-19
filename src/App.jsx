@@ -10,10 +10,10 @@ function App() {
 
   return (
     <>
-      <BackDropLogo styles="w-48 md:w-52 top-10 md:top-14 left-10 md:left-14" />
-    <BackDropLogo styles="w-48 md:w-52 top-10 md:top-14 right-10 md:right-14" />
-    <BackDropLogo styles="w-48 md:w-52 bottom-10 md:bottom-14 right-10 md:right-14" />
-    <BackDropLogo styles="w-48 md:w-52 bottom-10 md:bottom-14 left-10 md:left-14" />
+      <BackDropLogo styles="w-48 md:w-52 top-3 md:top-14 left-3 md:left-14" />
+    <BackDropLogo styles="w-48 md:w-52 top-3 md:top-14 right-3 md:right-14" />
+    <BackDropLogo styles="w-48 md:w-52 bottom-3 md:bottom-14 right-3 md:right-14" />
+    <BackDropLogo styles="w-48 md:w-52 bottom-3 md:bottom-14 left-3 md:left-14" />
     <header>
       <DesktopNav />
       <MobileNav />
