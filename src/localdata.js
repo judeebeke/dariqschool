@@ -1,28 +1,28 @@
 const learningData = [
     {
         image: "",
-        title: "",
+        title: "Information Technology",
         description: "",
         image_alt: "",
         id: "ld1"
     },
     {
         image: "",
-        title: "",
+        title: "Physical Education",
         description: "",
         image_alt: "",
         id: "ld2"
     },
     {
         image: "",
-        title: "",
+        title: "Arts and Crafts",
         description: "",
         image_alt: "",
         id: "ld3"
     },
     {
         image: "",
-        title: "",
+        title: "Mathematics and English",
         description: "",
         image_alt: "",
         id: "ld4"

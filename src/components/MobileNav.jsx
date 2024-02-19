@@ -10,7 +10,7 @@ const MobileNav = () => {
           className='w-16 h-auto'
           alt='Dariq International School Logo'
         />
-        <span><span className='text-primary'>Dariq</span> Int'l School</span>
+        <h6 className='dark:text-white'><span className='text-primary'>Dariq</span> Int'l School</h6>
       </a>
       <ul className='flex flex-col justify-center items-center gap-x-10 p-2 text-primary'>
         <li>

@@ -23,14 +23,14 @@ const AboutUs = () => {
       </div>
       <div className='w-full flex flex-col lg:justify-end items-start lg:items-end'>
         <h2 className='text-[1rem] font-extrabold text-primary'>About Us</h2>
-        <p className='text-3xl md:text-3xl font-extrabold text-black'>
+        <p className='text-3xl md:text-3xl font-extrabold text-black dark:text-white'>
           We Offer The Best Services
         </p>
         <button
-          className='btn w-80 flex justify-center items-center gap-x-3 border-b-4  border-gray-400 bg-white p-3 mt-5 text-primary rounded-xl h-auto text-base font-semi-bold hover:bg-white hover:border-primary transition-all ease-in-out duration-500'
+          className='btn w-[100%] md:w-80 flex justify-center items-center  flex-nowrap border-b-4  border-gray-400 bg-white p-3 mt-5 text-primary rounded-xl h-auto text-base font-semi-bold outline-1 outline-secondary hover:bg-white hover:border-primary transition-all ease-in-out duration-500'
           onClick={handleShowAccordion}
         >
-          <i>Icon</i>Premium Services Provided{' '}
+          <i>I</i>Premium Services Provided{' '}
           <i>{showAccordion ? 'O' : 'C'}</i>
         </button>
       </div>
