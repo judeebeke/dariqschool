@@ -3,10 +3,10 @@ import logo from '../assets/logo_nobg.png'
 
 const DesktopNav = () => {
   return (
-    <nav className='w-[100vw] px-12 pt-9 flex justify-between items-center text-black'>
+    <nav className='hidden md:flex w-[100vw] px-12 pt-9 justify-between items-center text-black'>
       <a href='/' className='flex justify-center items-center gap-x-3 text-xl cursor-pointer pr-3 outline-1 outline-secondary'>
         <img
-          src={logo}
+          src={"https://ik.imagekit.io/b8uget7ig/landingimages/logo_nobg.png?updatedAt=1708352083714" || logo}
           className='w-16 h-auto'
           alt='Dariq International School Logo'
         />

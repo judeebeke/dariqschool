@@ -3,7 +3,7 @@ import logo from '../assets/logo_nobg.png'
 
 const MobileNav = () => {
   return (
-    <nav className='w-[100vw] px-12 pt-9 flex justify-between items-center text-black'>
+    <nav className='w-[100vw] md:hidden px-12 pt-9 flex justify-between items-center text-black'>
       <a href='/' className='flex justify-center items-center gap-x-3 text-xl cursor-pointer'>
         <img
           src={logo}
@@ -12,7 +12,7 @@ const MobileNav = () => {
         />
         <h6 className='dark:text-white'><span className='text-primary'>Dariq</span> Int'l School</h6>
       </a>
-      <ul className='flex flex-col justify-center items-center gap-x-10 p-2 text-primary'>
+      <ul className='hidden flex-col justify-center items-center gap-x-10 p-2 text-primary'>
         <li>
           <a>Home</a>
         </li>
