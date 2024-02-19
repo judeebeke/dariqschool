@@ -3,6 +3,7 @@
 import BackDropLogo from "./UI/BackDropLogo"
 import Overlay from "./UI/Overlay"
 import DesktopNav from "./components/DesktopNav"
+import MobileNav from "./components/MobileNav"
 import LandingPage from "./pages/LandingPage"
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
     <BackDropLogo styles="w-48 md:w-52 bottom-10 md:bottom-14 left-10 md:left-14" />
     <header>
       <DesktopNav />
+      <MobileNav />
     </header>
       <main>
         <LandingPage />

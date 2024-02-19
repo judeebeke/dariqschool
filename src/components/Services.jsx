@@ -17,7 +17,7 @@ const Services = () => {
             className='w-full h-3/5 rounded-lg object-cover'
             alt='ICT LAb'
           />
-          <div className='px-5 pt-2'>
+          <div className='px-5 py-3'>
             <h6 className='text-base font-bold text-black mb-3'>
               Information Technology
             </h6>
@@ -33,7 +33,7 @@ const Services = () => {
             className='w-full h-3/5 rounded-lg object-cover'
             alt='ICT LAb'
           />
-          <div className='px-5 pt-2'>
+          <div className='px-5 py-3'>
             <h6 className='text-base font-bold text-black mb-3'>
               Information Technology
             </h6>
@@ -50,7 +50,7 @@ const Services = () => {
             loading='lazy'
             alt='ICT LAb'
           />
-          <div className='px-5 pt-2'>
+          <div className='px-5 py-3'>
             <h6 className='text-base font-bold text-black mb-3'>
               Information Technology
             </h6>
