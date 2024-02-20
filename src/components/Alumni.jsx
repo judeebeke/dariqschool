@@ -1,9 +1,11 @@
 import React from 'react'
 import alumni_image from "../assets/alumni_image.jpeg"
+import Overlay from '../UI/Overlay'
 
 const Alumni = () => {
   return (
     <section className="flex flex-col lg:flex-row gap-y-4 justify-between lg:items-center relative py-16 px-12 mt-9 w-[100vw] h-auto">
+      <Overlay styles='bg-white dark:bg-black -z-10' />
     <div className='w-full flex flex-col justify-start items-start'>
         <p className='text-3xl md:text-5xl font-extrabold text-black dark:text-white'>We Have Students Who Excel The World State, Proud!</p>
         <p className="text-base text-black dark:text-white font-semibold pt-3">Our Alumni Students are making waves around the world. There are changing the world through their hardwork and dedication. We are proud of their acheivement.</p>

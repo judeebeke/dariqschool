@@ -1,23 +1,41 @@
 // import { useState } from 'react'
 
-import BackDropLogo from "./UI/BackDropLogo"
-import Overlay from "./UI/Overlay"
-import DesktopNav from "./components/DesktopNav"
-import MobileNav from "./components/MobileNav"
-import LandingPage from "./pages/LandingPage"
+import BackDropLogo from './UI/BackDropLogo'
+import Overlay from './UI/Overlay'
+import DesktopNav from './components/DesktopNav'
+import MobileNav from './components/MobileNav'
+import LandingPage from './pages/LandingPage'
+import logo from './assets/logo_nobg.png'
 
-function App() {
-
+function App () {
   return (
     <>
-      <BackDropLogo styles="w-48 md:w-52 top-3 md:top-14 left-3 md:left-14" />
-    <BackDropLogo styles="w-48 md:w-52 top-3 md:top-14 right-3 md:right-14" />
-    <BackDropLogo styles="w-48 md:w-52 bottom-3 md:bottom-14 right-3 md:right-14" />
-    <BackDropLogo styles="w-48 md:w-52 bottom-3 md:bottom-14 left-3 md:left-14" />
-    <header>
-      <DesktopNav />
-      <MobileNav />
-    </header>
+      <BackDropLogo styles='w-48 md:w-52 top-3 md:top-14 left-3 md:left-14' />
+      <BackDropLogo styles='w-48 md:w-52 top-3 md:top-14 right-3 md:right-14' />
+      <BackDropLogo styles='w-48 md:w-52 bottom-3 md:bottom-14 right-3 md:right-14' />
+      <BackDropLogo styles='w-48 md:w-52 bottom-3 md:bottom-14 left-3 md:left-14' />
+      <header className='w-[100vw] flex justify-between px-8 pt-6 md:px-12 md:pt-9 items-center text-black'>
+        <a
+          href='/'
+          className='flex justify-center items-center gap-x-3 text-xl cursor-pointer pr-3 outline-1 outline-secondary'
+        >
+          <img
+            src={
+              'https://ik.imagekit.io/b8uget7ig/landingimages/logo_nobg.png?updatedAt=1708352083714' ||
+              logo
+            }
+            className='w-16 h-auto'
+            alt='Dariq International School Logo'
+          />
+          <h6 className='dark:text-white'>
+            <span className='text-primary'>Dariq</span> Int'l School
+          </h6>
+        </a>
+        <DesktopNav />
+        <div className='md:hidden'>
+          <MobileNav />
+        </div>
+      </header>
       <main>
         <LandingPage />
       </main>
@@ -26,7 +44,6 @@ function App() {
 }
 
 export default App
-
 
 // import React from 'react'
 // import { useMediaQuery } from 'react-responsive'

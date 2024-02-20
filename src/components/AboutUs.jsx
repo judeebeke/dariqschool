@@ -11,7 +11,7 @@ const AboutUs = () => {
 
   return (
     <section className='flex flex-col-reverse lg:flex-row gap-y-4 justify-between lg:items-center relative py-16 px-12 mt-9 w-[100vw] h-auto'>
-      <Overlay styles='bg-tertiary' />
+      <Overlay styles='bg-tertiary dark:bg-gray-900 -z-10' />
       <div className='flex justify-center lg:justify-start relative w-full h-auto mt-14 lg:mt-0'>
         <div className='w-5/6 lg:w-4/6 h-auto md:h-[80vh] z-10 mr-1 md:mr-5'>
           <img
@@ -27,7 +27,7 @@ const AboutUs = () => {
           We Offer The Best Services
         </p>
         <button
-          className='btn w-[100%] md:w-80 flex justify-center items-center  flex-nowrap border-b-4  border-gray-400 bg-white p-3 mt-5 text-primary rounded-xl h-auto text-base font-semi-bold outline-1 outline-secondary hover:bg-white hover:border-primary transition-all ease-in-out duration-500'
+          className='btn w-[100%] md:w-80 flex justify-center items-center  flex-nowrap border-b-4  border-gray-600 bg-white  dark:bg-black p-3 mt-5 text-primary dark:text-white rounded-xl h-auto text-base font-semi-bold outline-1 outline-secondary hover:bg-white hover:border-primary transition-all ease-in-out duration-500'
           onClick={handleShowAccordion}
         >
           <i>I</i>Premium Services Provided{' '}

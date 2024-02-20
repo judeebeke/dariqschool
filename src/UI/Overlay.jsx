@@ -10,7 +10,8 @@ import React from 'react'
 const Overlay = props => {
   return (
     <div
-      className={`w-full h-full ${props.styles} opacity-20 dark:opacity-40 -z-10 absolute top-0 left-0`}
+      className={`w-full h-full ${props.styles} opacity-25 dark:opacity-90 absolute top-0 left-0 transition-all ease-linear duration-500`}
+      onClick={()=>{props.onAction()}}
     ></div>
   )
 }

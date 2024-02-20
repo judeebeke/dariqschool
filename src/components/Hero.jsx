@@ -10,7 +10,7 @@ import Overlay from '../UI/Overlay';
 const Hero = () => {
   return (
     <div className='py-14 px-12 w-[100vw]'>
-      <Overlay styles='bg-white dark:bg-dark' />
+      <Overlay styles='bg-white dark:bg-black -z-10' />
         <section className='w-full flex items-center flex-col lg:flex-row '>
           <div className='w-full flex gap-y-3 flex-col'>
           <p className='text-[1rem] font-extrabold text-primary'><strong>We Are Number One</strong></p>

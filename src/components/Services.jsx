@@ -5,7 +5,7 @@ import Overlay from '../UI/Overlay'
 const Services = () => {
   return (
     <section className='flex flex-col gap-y-4 justify-between lg:items-center relative py-16 px-12 mt-9 w-[100vw] h-auto'>
-      <Overlay styles='bg-tertiary' />
+      <Overlay styles='bg-tertiary dark:bg-gray-900 -z-10' />
       <h2 className='text-[1rem] font-extrabold text-primary'>LEARNING</h2>
       <p className='text-3xl md:text-3xl mb-3 font-extrabold text-black dark:text-white'>
         We Offer Subjects That Supports All Disciplines
@@ -43,7 +43,7 @@ const Services = () => {
             </p>
           </div>
         </div>
-        <div className='flex flex-col justify-start items-start gap-y-2 rounded-lg min-w-48 bg-white shadow-md border-b-4 border-b-gray-400 hover:border-primary transition-all ease-in-out duration-500'>
+        <div className='flex flex-col justify-start items-start gap-y-2 rounded-lg min-w-48 bg-white dark:bg-black shadow-md border-b-4 border-b-gray-400 hover:border-primary transition-all ease-in-out duration-500'>
           <img
             src={ictLab}
             className='w-full h-3/5 rounded-lg object-cover'
