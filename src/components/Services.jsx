@@ -11,7 +11,7 @@ const Services = () => {
         We Offer Subjects That Supports All Disciplines
       </p>
       <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-16 md:gap-x-16'>
-        <div className='flex flex-col justify-start items-start gap-y-2 rounded-lg min-w-52 bg-white border-b-4 border-b-gray-400 hover:border-primary transition-all ease-in-out duration-500'>
+        <div className='flex flex-col justify-start items-start gap-y-2 rounded-lg min-w-52 bg-white dark:bg-black shadow-md border-b-4 border-b-gray-400 hover:border-primary transition-all ease-in-out duration-500'>
           <img
             src={ictLab}
             className='w-full h-3/5 rounded-lg object-cover'
@@ -21,13 +21,13 @@ const Services = () => {
             <h6 className='text-base font-bold text-black mb-3'>
               Information Technology
             </h6>
-            <p className='text-sm text-gray-500'>
+            <p className='text-sm text-gray-500 dark:text-white'>
               Our fully equipped ICT Lab functions to teach our students and
               grow their curiosity in this information and communication age.
             </p>
           </div>
         </div>
-        <div className='flex flex-col justify-start items-start gap-y-2 rounded-lg min-w-48 bg-white border-b-4 border-b-gray-400 hover:border-primary transition-all ease-in-out duration-500'>
+        <div className='flex flex-col justify-start items-start gap-y-2 rounded-lg min-w-48 bg-white dark:bg-black shadow-md border-b-4 border-b-gray-400 hover:border-primary transition-all ease-in-out duration-500'>
           <img
             src={ictLab}
             className='w-full h-3/5 rounded-lg object-cover'
@@ -37,7 +37,7 @@ const Services = () => {
             <h6 className='text-base font-bold text-black mb-3'>
               Information Technology
             </h6>
-            <p className='text-sm text-gray-500'>
+            <p className='text-sm text-gray-500 dark:text-white'>
               Our fully equipped ICT Lab functions to teach our students and
               grow their curiosity in this information and communication age.
             </p>
@@ -51,10 +51,10 @@ const Services = () => {
             alt='ICT LAb'
           />
           <div className='px-5 py-3'>
-            <h6 className='text-base font-bold text-black mb-3'>
+            <h6 className='text-base font-bold text-black dark:text-white mb-3'>
               Information Technology
             </h6>
-            <p className='text-sm text-gray-500'>
+            <p className='text-sm text-gray-500 dark:text-white'>
               Our fully equipped ICT Lab functions to teach our students and
               grow their curiosity in this information and communication age.
             </p>
