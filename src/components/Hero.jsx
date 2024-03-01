@@ -16,13 +16,13 @@ const Hero = () => {
           <p className='text-[1rem] font-extrabold text-primary'><strong>We Are Number One</strong></p>
           <h1 className='text-3xl md:text-5xl font-extrabold text-black dark:text-white'>Come Join Us And Achieve Your Dreams Here In <span className="text-primary">Dariq</span> School</h1>
           <p className="text-black dark:text-white text-sm font-semibold text-justify">Our Curriculum is designed to ignite curiosity, foster creativity and prepare students for a dynamic world where knowledge of both traditional academics and modern technology is key.</p>
-          <button className="btn border-none outline-1 outline-secondary bg-primary p-3 mt-5 text-white rounded-xl max-w-40 h-auto text-base font-semi-bold hover:bg-secondary transition-all ease-in-out duration-500">Learn More</button>
+          <button className="btn border-none outline-1 outline-secondary btn-primary p-3 mt-5 text-white rounded-xl max-w-40 h-auto text-base font-semi-bold hover:bg-secondary transition-all ease-in-out duration-500">Learn More</button>
           <div className='flex justify-start items-center'>
           <AvatarUI image={image_one} styles="w-7 h-7" />
           <AvatarUI image={image_two} styles="w-7 h-7 -ml-4" />
           <AvatarUI image={image_four} styles="w-7 h-7 -ml-4" />
           <AvatarUI image={image_three} styles="w-7 h-7 -ml-4" />
-          <p className='text-secondary ml-5 font-semibold'>500+</p>
+          <p className='text-base text-secondary ml-5 font-semibold'>500+</p>
           </div>
           </div>
           <div className='flex justify-center lg:justify-end relative w-full h-auto mt-14 lg:mt-0'>

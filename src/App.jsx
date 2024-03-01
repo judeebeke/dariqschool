@@ -10,10 +10,10 @@ import logo from './assets/logo_nobg.png'
 function App () {
   return (
     <>
-      <BackDropLogo styles='w-48 md:w-52 top-3 md:top-14 left-3 md:left-14' />
-      <BackDropLogo styles='w-48 md:w-52 top-3 md:top-14 right-3 md:right-14' />
-      <BackDropLogo styles='w-48 md:w-52 bottom-3 md:bottom-14 right-3 md:right-14' />
-      <BackDropLogo styles='w-48 md:w-52 bottom-3 md:bottom-14 left-3 md:left-14' />
+      <BackDropLogo styles='w-36 md:w-52 top-3 md:top-14 left-3 md:left-14' />
+      <BackDropLogo styles='w-36 md:w-52 top-3 md:top-14 right-3 md:right-14' />
+      <BackDropLogo styles='w-36 md:w-52 bottom-3 md:bottom-14 right-3 md:right-14' />
+      <BackDropLogo styles='w-36 md:w-52 bottom-3 md:bottom-14 left-3 md:left-14' />
       <header className='w-[100vw] flex justify-between px-8 pt-6 md:px-12 md:pt-9 items-center text-black'>
         <a
           href='/'

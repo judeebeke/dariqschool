@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --scrollbar-thumb: #6b4cf8; /* Example color for scrollbar thumb */
+  --scrollbar-track: #ffffff; /* Example color for scrollbar track */
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -19,6 +24,25 @@ body {
   z-index: 30;
 }
 
+#mobileNav {
+  /* Other styles for your navigation */
+  scrollbar-width: thin; /* For Firefox */
+  scrollbar-color: var(--scrollbar-thumb) var(--scrollbar-track); /* For Firefox */
+}
+
+#mobileNav::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+}
+
+#mobileNav::-webkit-scrollbar-thumb {
+  background-color: var(--scrollbar-thumb); /* Color of the scrollbar thumb */
+  border-radius: 50px; /* Radius of the scrollbar thumb */
+}
+
+#mobileNav::-webkit-scrollbar-track {
+  background-color: var(--scrollbar-track); /* Color of the scrollbar track */
+}
+
 .slide-out {
   animation: slideRight 0.5s ease-out forwards;
 }
@@ -33,5 +57,34 @@ body {
     /* transform: translateX(0); */
     right: -50%;
     opacity: 1;
+  }
+}
+
+.fadeout {
+  animation: fadeout 0.3s linear forwards;
+}
+
+@keyframes fadeout {
+  from{
+    opacity: 1;
+   }
+   
+   
+   to{
+    opacity: 0;
+   }
+}
+
+.fadein {
+  animation: fadein 0.5s linear forwards;
+}
+
+@keyframes fadein {
+  from {
+   opacity: 0;
+  }
+  
+  to {
+   opacity: 1;
   }
 }

@@ -1,3 +1,53 @@
+export const NavigationMenu = [
+    {
+        id: "nav1",
+        navText: "Home",
+        navLink: "/",
+    },
+    {
+        id: "nav2",
+        navText: "Academics",
+        navLink: "/academics",
+    }, {
+        id: "nav3",
+        navText: "Information",
+        navLink: "",
+        submenu: [
+            {
+                id: "subinfo1",
+                navText: "Admissions",
+                navLink: "/admissions",
+            },
+            {
+                id: "subinfo2",
+                navText: "Admissions",
+                navLink: "/admissions",
+            }, {
+                id: "subinfo3",
+                navText: "Admissions",
+                navLink: "/admissions",
+            }, {
+                id: "subinfo4",
+                navText: "Admissions",
+                navLink: "/admissions",
+            },
+        ]
+    }, {
+        id: "nav4",
+        navText: "Year Groups",
+        navLink: "/yrgroup",
+    }, {
+        id: "nav5",
+        navText: "Management",
+        navLink: "/management",
+    },
+    {
+        id: "nav6",
+        navText: "Gallery",
+        navLink: "/gallery",
+    },
+]
+
 const learningData = [
     {
         image: "",

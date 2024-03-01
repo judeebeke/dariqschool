@@ -18,7 +18,7 @@ const Services = () => {
             alt='ICT LAb'
           />
           <div className='px-5 py-3'>
-            <h6 className='text-base font-bold text-black mb-3'>
+            <h6 className='text-base font-bold text-black dark:text-white mb-3'>
               Information Technology
             </h6>
             <p className='text-sm text-gray-500 dark:text-white'>
@@ -34,7 +34,7 @@ const Services = () => {
             alt='ICT LAb'
           />
           <div className='px-5 py-3'>
-            <h6 className='text-base font-bold text-black mb-3'>
+            <h6 className='text-base font-bold text-black dark:text-white mb-3'>
               Information Technology
             </h6>
             <p className='text-sm text-gray-500 dark:text-white'>
