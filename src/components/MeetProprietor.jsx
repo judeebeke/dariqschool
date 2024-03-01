@@ -9,10 +9,10 @@ const MeetProprietor = () => {
         MEET THE PROPRIETRESS
       </h2>
       <div className='flex items-center justify-center flex-col md:flex-row gap-y-5 md:gap-x-10'>
-        <div className='w-[300px] max-w-[550px] h-[500px] max-h-[600px] rounded-full bg-primary dark:bg-slate-500  flex items-center justify-center'>
+        <div className='w-[330px] lg:w-[500px] h-[500px] max-h-[550px] rounded-full bg-primary dark:bg-slate-500  flex items-center justify-center'>
           Proprietress Image Here
         </div>
-        <div className='text-center flex flex-col gap-y-3'>
+        <div className='text-center md:text-start flex flex-col gap-y-3'>
           <strong className='text-xl'>Hajiya Proprietress</strong>
           <p className='text-sm font-medium'>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
